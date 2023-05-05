@@ -1,0 +1,101 @@
+
+
+body{
+ background-color: rgb(53, 47, 47); 
+}
+#chart{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgb(113, 142, 180);
+   
+}
+#xp{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 5%;
+ 
+  background-color: rgb(214, 115, 135);
+
+}
+#pie-chart{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 5%;
+ 
+ 
+
+}
+#formulaire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+#login-form {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  background-color: #3150c1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.bouton {
+  background-color: #981a2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* #infos{
+  position: absolute;
+  top: 20%;
+  right: 20%;
+color: aliceblue;
+} */
+
+#user-info {
+  position: absolute;
+  right: 10%;
+  top:10%;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f0f0f0;
+  visibility: hidden;
+}
+
+#user-info p {
+  margin: 0;
+}
+
+#user-info strong {
+  font-weight: bold;
+}
+.modal{
+position: fixed;
+  color: aliceblue;
+  margin-left: 70%;
+  margin-top: 30%;
+}
+#msg{
+  position: absolute;
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: 0%;
+  }

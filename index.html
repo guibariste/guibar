@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GraphQL</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+   
+
+      </head>
+     
+        
+  
+  <body>
+
+    <div id="msg"></div>
+    <div id="formulaire">
+    <form id="login-form">
+        <label for="email">Email:</label>
+        &nbsp;
+        <input type="email" id="email" name="email">
+        <br>
+        &nbsp;&nbsp;
+        <label for="password">Password:</label>
+        &nbsp;
+        <input type="password" id="password" name="password">
+        <br>
+        <input class="bouton" type="submit" value="Login">
+        &nbsp;&nbsp; &nbsp;&nbsp;
+        <button class="bouton" id="delog">logout</button> 
+      </form>
+    </div>
+
+      <div id="chart" width="500" height="400"></div>
+      <div id="xp" width="500" height="400"></div>
+      <div id="pie-chart" width="500" height="400"></div>
+      <div id="user-info"></div>
+      <script type="module" src="graph.js"></script>
+      <script type="module" src="graphxp.js"></script>
+      <script type="module" src="token.js"></script>
+
+  </body>
+</html>
